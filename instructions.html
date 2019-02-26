@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale1">
+        <title>MBA - Examination</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="stylesheet" type="text/css" href="instructions.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.1/css/mdb.min.css" rel="stylesheet">
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.1/js/mdb.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg">
+            <a href="#" class="navbar-brand">
+            <img id="logo" src="logo.png" alt="Logo">
+            </a>
+            <div class="logo" id="navbarText">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                     <div class="logo_name">
+                        <h6>UNIVERSITY OF THE PHILIPPINES CEBU</h6>
+                        <hr>
+                        <h6 id="college_name">SCHOOL OF MANAGEMENT</h6>
+                     </div>
+                  </li>
+               </ul>
+               <span class="navbar-text">
+               Masters of Business Administration
+               </span>
+            </div>
+        </nav>
+        <div class="title_bar sticky-top">
+            <span class="float-left">MBA: Virtual Learning Environment</span>   
+            <button onclick="location.href='login.html';" class="float-right logout-button"><i class="fa fa-sign-out-alt" aria-hidden="true"></i> &nbsp;SIGN OUT</button>
+            <button onclick="location.href='authentication.html';" class="float-right logout-button"><i class="fa fa-chevron-left" aria-hidden="true"></i> &nbsp;GO BACK</button>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 instructions-box">
+                    <h4 class="type-of-exam font-weight-bold" id="type-of-exam">First Long Examination</h4>
+                    <h6 class="course-subject" id="course-subject">BA201 (Economic Analysis)</h6>
+                    <p><b>Instruction:</b> Select the option(s) that you think is(are) correct.<br/>
+                        <br/><b>Important:</b>  
+                        <br/> 1. You are NOT allowed to browse the web, scan your physical or electronic notes. 
+                        <br/> 2. You are NOT allowed to go out while the exam is going on.
+                        <br/> 3. You MAY use your calculator (except built-in PC calc) and have some scratch papers. 
+                        <br/> 4. Focus on your own workstation. 
+                        <br/> 5. Check your remaining time every now and then. 
+                        <br/> 6. Un-submitted attempts will be automatically submitted once time expires. 
+                        <br/> 7. Take note that you are only allowed 1 attempt.
+                    </p>
+                 
+                </div>
+
+                <div class="col-md-8 table-box">
+                    <div class="card">
+                    <div class="card-body">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">State</th>
+                                <th scope="col">Grade</th>
+                                <th scope="col">Feedback</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Finished <br/>Submitted Wednesday, 12 December 2018, 3:18 PM</td>
+                                <td>100/100</td>
+                                <td>You may now review your score and your answers. If you have questions, please do ask your teacher. If you are not done doing the SET for this course or your other courses, kindly do so ASAP. Thank you very much!</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                    </div></div>
+                    <p class="time-remaining">Time Remaining: <b>1 hour 32 mins 5 seconds</b></p>
+                    <button type="button" class="btn button float-right" data-toggle="modal" data-target="#modalStudentKey">
+                            START</button>
+                        <button type="button" disabled class="btn button float-right" data-toggle="modal" data-target="#modalStudentKey">
+                            REVIEW</button>
+                </div>
+            </div>
+        </div>        
+   </body>
+</html>
