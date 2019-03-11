@@ -38,7 +38,7 @@
       </nav>
       <!-- TITLE BAR -->
       <div class="title_bar sticky-top">
-         <span>EXAMINATION CHU CHU</span>
+         <span>EXAMINATION</span>
       </div>
       <main class="container-fluid">
          <div id="wrapper" class="row">
@@ -46,23 +46,51 @@
             <div class="col-md-4">
                <div class="indicator jumbotron">
                   <div>
-                     <div>
-                        <h2>EXAM NAVIGATION</h2>
+                     <div class="indicator_title">
+                        EXAM NAVIGATION
+                     </div>
+                     <div class="indicator_numbers">
+                        <button type="button" class="btn-primary">1</button>
+                        <button type="button" class="btn-primary">2</button>
+                        <button type="button" class="btn-primary">3</button>
+                        <button type="button" class="btn-primary">4</button>
+                        <button type="button" class="btn-primary">5</button>
+                        <button type="button" class="btn-primary">6</button>
+                        <button type="button" class="btn-primary">7</button>
+                        <button type="button" class="btn-primary">8</button>
+                        <button type="button" class="btn-primary">9</button>
+                        <button type="button" class="btn-primary">10</button>
+                        <button type="button" class="btn-primary">11</button>
+                        <button type="button" class="btn-primary">12</button>
+                        <button type="button" class="btn-primary">13</button>
+                        <button type="button" class="btn-primary">14</button>
+                        <button type="button" class="btn-primary">15</button>
+                        <button type="button" class="btn-primary">16</button>
+                        <button type="button" class="btn-primary">17</button>
+                        <button type="button" class="btn-primary">18</button>
+                        <button type="button" class="btn-primary">19</button>
+                        <button type="button" class="btn-primary">20</button>
+                        <button type="button" class="btn-primary">21</button>
                      </div>
                      <div>
-                        <a href="#">
-                           1
-                        </a>
+                        <div>
+                           <a href="#">Show all questions on one page</a>
+                        </div>
+                        <div>
+                           <a href="#">Finish exam</a>
+                        </div>
                      </div>
                   </div>
                </div>
+               <div class="time_indicator jumbotron">
+                  <p>Time Remaining: 00:00</p>
+               </div>
             </div>
             <section class="col-md-8">
-               <!-- FORMS -->
-               <form>
-                  <!-- QUESTION CONTAINER -->
-                  <div id="q_container">
-                     <!-- QUESTION -->
+               <!-- FORMS CONTAINER -->
+               <div class="form_container">
+                  <!-- QUESTION -->
+                  <form>
                      <div class="question">
                         <div class="info">
                            <div class="num">Question 1</div>
@@ -81,20 +109,20 @@
                                  <div class="choices">
                                     <div class="form-check">
                                        <label class="form-check-label">
-                                       <input type="radio" class="form-check-input" name="opt">
-                                       round-robin scheduling
+                                          <input type="radio" class="form-check-input" name="opt">
+                                          round-robin scheduling
                                        </label>
                                     </div>
                                     <div class="form-check">
                                        <label class="form-check-label">
-                                       <input type="radio" class="form-check-input" name="opt">
-                                       non-preemptive scheduling
+                                          <input type="radio" class="form-check-input" name="opt">
+                                          non-preemptive scheduling
                                        </label>
                                     </div>
                                     <div class="form-check">
                                        <label class="form-check-label">
-                                       <input type="radio" class="form-check-input" name="opt">
-                                       preemptive scheduling
+                                          <input type="radio" class="form-check-input" name="opt">
+                                          preemptive scheduling
                                        </label>
                                     </div>
                                  </div>
@@ -102,16 +130,11 @@
                            </div>
                         </div>
                      </div>
-                     <!-- END OF QUESTION -->
-                  </div>
-                  <!-- END OF QUESTION CONTAINER -->
-               </form>
+                  </form>
+                  <!-- END OF QUESTION -->
+               </div>
             </section>
          </div>
-      </main>      
-
-      <!-- SHOULD DO JS TO DYNAMICALLY GENERATE THOSE QUESTIONS AND INDICATOR NUMBERS -->
-      <!-- <script src="exam.js"></script> -->
-
+      </main>
    </body>
 </html>
